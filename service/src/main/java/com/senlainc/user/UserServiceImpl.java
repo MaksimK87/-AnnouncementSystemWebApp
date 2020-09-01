@@ -21,7 +21,6 @@ import java.util.List;
 import java.util.Optional;
 
 @Transactional
-@ComponentScan
 @Service
 public class UserServiceImpl implements UserService {
 

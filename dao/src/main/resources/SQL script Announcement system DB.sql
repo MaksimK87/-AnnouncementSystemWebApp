@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `private_announcement_systemdb`.`user` (
 ENGINE = InnoDB
 AUTO_INCREMENT = 30
 DEFAULT CHARACTER SET = utf8;
-INSERT INTO private_announcement_systemdb.user(userName, password,email,role) VALUES("Admin", "$2a$10$F1ztHb6L2CSk6xVMEN9f/.jPDEj.q3xbMldxG1qwN4.XDKGq1Ba0y", "admin@admin.com","ADMIN");
+INSERT INTO private_announcement_systemdb.user(userName, password,email,role) VALUES("Admin", "$2a$10$7ILJ6kJoKzDjLMj0wIaoZO704NRrKwAb0GjN9yaNbN5b6oROnIa0e", "admin@admin.com","ADMIN");
 
 
 -- -----------------------------------------------------
